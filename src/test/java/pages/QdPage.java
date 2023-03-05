@@ -7,6 +7,8 @@ public class QdPage {
     public QdPage(){
         PageFactory.initElements(Driver.getDriver(),this);
     }
+
+
     @FindBy(linkText = "Log in")
     public WebElement ilkLoginLinki;
     @FindBy(id="login-email")

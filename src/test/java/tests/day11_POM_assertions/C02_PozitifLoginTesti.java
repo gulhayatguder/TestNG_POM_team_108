@@ -10,9 +10,11 @@ public class C02_PozitifLoginTesti {
     @Test(groups = "smoke")
     public void pozitifLoginTesti(){
         // qd anasayfaya gidin
-        Driver.getDriver().get(ConfigReader.getProperty("qdUrl"));
+       Driver.getDriver().get(ConfigReader.getProperty("qdUrl"));
 
-        // login linkine tiklayin
+
+
+      // login linkine tiklayin
         QdPage qdPage= new QdPage();
         qdPage.ilkLoginLinki.click();
 

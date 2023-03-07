@@ -6,7 +6,7 @@ import org.testng.asserts.SoftAssert;
 
 public class C04_HardAssert_SoftAssert {
 
-    @Test
+    @Test 
     public void hardAssertionTesti(){
 
         Assert.assertTrue(5>8); //

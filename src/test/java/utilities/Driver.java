@@ -45,6 +45,8 @@ public class Driver {
                 default:
                     WebDriverManager.chromedriver().setup();
                     driver=new ChromeDriver();
+                    System.setProperty("webdriver.http.factory", "jdk-http-client");
+
 
 
             }

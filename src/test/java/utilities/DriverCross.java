@@ -31,6 +31,7 @@ public class DriverCross {
                 default:
                     WebDriverManager.chromedriver().setup();
                     driver = new ChromeDriver();
+
             }
         }
         driver.manage().window().maximize();
